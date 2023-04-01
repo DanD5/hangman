@@ -60,7 +60,7 @@ while True:
             
             if lives == 0:
                 print(hangman_pic[lives])
-                print(f"{colorama.Fore.CYAN}The word was {word}{colorama.Fore.LIGHTWHITE_EX}")
+                print(f"{colorama.Fore.CYAN}The word was {word}{colorama.Fore.LIGHTWHITE_EX}")#my unique twist: making it return the correct word after failing to guess it
                 print(mean)
                 choice = input().upper()
                 if choice != "PLAY":
